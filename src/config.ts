@@ -14,6 +14,10 @@ export const candyMachineId = new PublicKey(
 export const defaultGuardGroup =
   process.env.NEXT_PUBLIC_DEFAULT_GUARD_GROUP || undefined; // undefined means default
 
+export const mintText = [
+  { label: "OGs", mintText: "WL mint paying with SOL", buttonLabel: "Mint now!", header: "WL Mint" },
+  { label: "Public", mintText: "Mint Paying with SOL", buttonLabel: "Mint now!", header: "Public Mint" },
+
 // "qasJ6jhgtngKk2QnEPdDjuFH8NMoM58W8TxPBXAChPY"
 // "3zwFR3spiwbSSMtvVKG2bRT6ttqFoC3MHCafGP8ZrdLz"
 // "DAA8yRLu7acVs3kxaTyCjoEjNWGinLaCKVhDY29ASNua"
