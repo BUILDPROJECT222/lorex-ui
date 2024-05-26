@@ -17,6 +17,7 @@ export const defaultGuardGroup =
 export const mintText = [
   { label: "OGs", mintText: "WL mint paying with SOL", buttonLabel: "Mint now!", header: "WL Mint" },
   { label: "Public", mintText: "Mint Paying with SOL", buttonLabel: "Mint now!", header: "Public Mint" },
+];
 
 // "qasJ6jhgtngKk2QnEPdDjuFH8NMoM58W8TxPBXAChPY"
 // "3zwFR3spiwbSSMtvVKG2bRT6ttqFoC3MHCafGP8ZrdLz"
